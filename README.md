@@ -3,7 +3,7 @@
 this repo is a personal collection of **daily pyspark challenges** that simulate real-world data engineering problems.  
 each problem is designed to strengthen practical spark skills — covering data cleaning, joins, aggregations, window functions, optimization, and sql-parallel logic.
 
-## purpose
+## Purpose
 
 the goal is to build hands-on understanding of pyspark through consistent problem-solving, not just theory.  
 this repo acts as a practice log, a reference for common spark patterns, and a showcase of structured, production-style thinking.
@@ -25,21 +25,21 @@ example folder:
  ┗ 🖼️ Expected_output.png
 ```
 
-## learning focus
+## Learning focus
 
 - building scalable transformations in pyspark  
 - comparing pyspark vs sql logic for better understanding  
 - improving debugging and optimization habits  
 - developing clean and reusable data workflows  
 
-## tech used
+## Tech used
 
 - apache spark (pyspark)  
 - sql (postgres compatible)  
 - jupyter notebook  
 - parquet/csv datasets  
 
-## how to use
+## How to use
 
 ```bash
 # clone the repo
@@ -50,11 +50,11 @@ cd Daily-PySpark-Challenges
 jupyter notebook "Problem 3 - Identify First-Time and Repeat Customers by Date/PySpark_Solution.ipynb"
 ```
 
-## progress
+## Progress
 
 problems are added regularly — from basic to advanced — to cover a wide range of data engineering use cases.
 
-## note
+## Note
 
 these are self-built challenges for continuous learning.  
 each solution is tested locally on pyspark and sql to ensure correctness and clarity.
