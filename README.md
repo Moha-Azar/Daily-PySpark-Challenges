@@ -1,16 +1,60 @@
-Daily PySpark Challenges
-this repo is my personal log of daily spark challenges.
-the goal is to build strong, real-world data engineering problem-solving skills using pyspark — from basics to production-level scenarios.
+# Daily PySpark Challenges
 
-what you’ll find here
-daily spark challenges: short and focused problems that cover joins, aggregations, window functions, optimizations, etc.
-real-world patterns: scenarios inspired by data engineering workflows — data cleaning, ETL, partitioning, shuffles, caching, and more.
+this repo is a personal collection of **daily pyspark challenges** that simulate real-world data engineering problems.  
+each problem is designed to strengthen practical spark skills — covering data cleaning, joins, aggregations, window functions, optimization, and sql-parallel logic.
 
-progress tracking: each folder represents a day’s challenge, showing both the problem statement and my approach.
-📂 Daily-PySpark-Challenges/
- ┣ 📂 Problem 1 - Identify First-Time and Repeat Customers by Date/
- ┃ ┣ 📜 PySpark_Solution.ipynb
- ┃ ┣ 📜 SQL_DataSet.sql
- ┃ ┣ 📜 SQL_Solution.sql
- ┃ ┗ 🖼️ Expected_output.png
- ┗ 📜 README.md
+## purpose
+
+the goal is to build hands-on understanding of pyspark through consistent problem-solving, not just theory.  
+this repo acts as a practice log, a reference for common spark patterns, and a showcase of structured, production-style thinking.
+
+## what’s inside
+
+each folder represents a separate challenge and usually contains:
+- **PySpark_Solution.ipynb** – pyspark implementation of the challenge  
+- **SQL_DataSet.sql** – sample dataset used for testing  
+- **SQL_Solution.sql** – sql equivalent for quick validation or comparison  
+- **Expected_output.png** – expected final result for reference  
+
+example folder:
+```
+📂 Problem 3 - Identify First-Time and Repeat Customers by Date/
+ ┣ 📜 PySpark_Solution.ipynb
+ ┣ 📜 SQL_DataSet.sql
+ ┣ 📜 SQL_Solution.sql
+ ┗ 🖼️ Expected_output.png
+```
+
+## learning focus
+
+- building scalable transformations in pyspark  
+- comparing pyspark vs sql logic for better understanding  
+- improving debugging and optimization habits  
+- developing clean and reusable data workflows  
+
+## tech used
+
+- apache spark (pyspark)  
+- sql (postgres compatible)  
+- jupyter notebook  
+- parquet/csv datasets  
+
+## how to use
+
+```bash
+# clone the repo
+git clone https://github.com/<your-username>/Daily-PySpark-Challenges.git
+cd Daily-PySpark-Challenges
+
+# open a challenge notebook
+jupyter notebook "Problem 3 - Identify First-Time and Repeat Customers by Date/PySpark_Solution.ipynb"
+```
+
+## progress
+
+problems are added regularly — from basic to advanced — to cover a wide range of data engineering use cases.
+
+## note
+
+these are self-built challenges for continuous learning.  
+each solution is tested locally on pyspark and sql to ensure correctness and clarity.
