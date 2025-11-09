@@ -43,7 +43,7 @@ example folder:
 
 ```bash
 # clone the repo
-git clone https://github.com/<your-username>/Daily-PySpark-Challenges.git
+git clone https://github.com/Moha-Azar/Daily-PySpark-Challenges.git
 cd Daily-PySpark-Challenges
 
 # open a challenge notebook
